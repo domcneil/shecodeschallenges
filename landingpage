@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The City of Brotherly Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/da1fff83f9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      header {
+        background-color: transparent;
+        border: 10cm;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        text-shadow: 1px 1px 2px black;
+        font-size: 15px;
+        color: #fff;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        position: fixed;
+        width: 100vw;
+        left: 0;
+        right: 0;
+        top: 0;
+      }
+      hr {
+        height: 1px;
+        border: none;
+        background-color: #ffff;
+        box-shadow: none;
+        opacity: 0.33;
+      }
+      body {
+        background: transparent;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+      }
+      h1 {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-size: 90px;
+        margin-top: 180px;
+        margin-bottom: 20px;
+        opacity: 0.9;
+        color: #ffff;
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 1em #ffff, 0 0 0.2em black;
+      }
+      h3 {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        color: #fff;
+        padding: 10px;
+        opacity: 0.8;
+        text-align: center;
+        text-shadow: 1px 1px 2px black;
+      }
+
+      h6 {
+        font-family: "Mr Dafoe", cursive;
+        text-align: left;
+        text-shadow: 1px 1px 2px black, 0 0 1em #ffff, 0 0 0.2em rgb(97, 66, 0);
+        color: #d48639;
+        border: 0.5px solid #ffff;
+        margin: 30px auto;
+        padding: 4px 8px;
+        border-radius: 1px;
+        display: inline;
+        position: fixed;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #d48639;
+        text-decoration: underline;
+        cursor: pointer;
+        text-shadow: 1px 1px 2px black, 0 0 1em #ffff, 0 0 0.2em rgb(97, 66, 0);
+      }
+      footer {
+        text-align: center;
+        color: white;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        background-color: rgb(132, 132, 132);
+        opacity: 0.7;
+        position: fixed;
+        width: 100vw;
+        left: 0;
+        right: 0;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        bottom: 0;
+      }
+      video {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        object-fit: cover;
+
+        position: fixed;
+      }
+
+      button {
+        position: relative;
+
+        border-radius: 20px;
+        padding: 15px;
+        font-family: sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        color: #ffff;
+        background-color: #d48639;
+        box-shadow: 0;
+        border: 0;
+        transition: all 200ms ease-in-out;
+        opacity: 0.9;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #ffff;
+        opacity: 0.9;
+        color: #d48639;
+      }
+
+      .subheading {
+        font-family: "Mr Dafoe", cursive;
+        font-weight: 400;
+        font-size: 70px;
+        color: #d48639;
+        text-align: center;
+      }
+      .links {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        font-size: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        opacity: 0.5;
+      }
+
+      .signature {
+        font-size: 10px;
+        padding-left: 35%;
+      }
+      .footer-links {
+        font-size: 15px;
+        padding-left: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    <video
+      autoplay
+      muted
+      loop
+      poster="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/984/original/Screen_Shot_2022-11-06_at_9.11.26_AM.png?1667779182"
+    >
+      <source
+        src="https://player.vimeo.com/external/430431488.hd.mp4?s=2fffee6c6570d5c1807d763c1f417d5554e216fb&profile_id=172&oauth2_token_id=57447761"
+        type="video/mp4"
+      />
+    </video>
+
+    <h6>philly.</h6>
+    <header>
+      <span class="links">
+        <a
+          href="https://www.history.com/topics/us-states/philadelphia-pennsylvania#:~:text=By%20the%20early%201600s%2C%20Dutch,city%20of%20Philadelphia%20in%201682."
+          target="_blank"
+          >HISTORY</a
+        ></span
+      >
+      <span class="links">
+        <a
+          href="https://www.visitphilly.com/tours-in-philadelphia/"
+          target="_blank"
+          >TOURS</a
+        ></span
+      >
+      <span class="links"
+        ><a
+          href="https://www.phlvisitorcenter.com/?gclid=Cj0KCQjwqoibBhDUARIsAH2OpWjQMScn0KqbqNteogefstQAEYNdZ4EekZ0835IoLBTeCq5h16jRatUaApNYEALw_wcB"
+          target="_blank"
+          >VISITOR CENTER</a
+        ></span
+      >Welcome to Philly
+      <span class="links">
+        <a
+          href="https://www.google.com/maps/dir//Independence+Visitor+Center,+Market+Street,+Philadelphia,+PA/@39.9514143,-75.1849406,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c6c88395fde2b1:0x5e52b336e43cc2f4!2m2!1d-75.1499212!2d39.9514196"
+          target="_blank"
+          >DIRECTIONS</a
+        ></span
+      >
+      <span class="links">
+        <a href="https://www.phila.gov/the-latest/all-events/" target="_blank"
+          >EVENTS</a
+        >
+      </span>
+      <span class="links"
+        ><a
+          href="https://www.visitphilly.com/contact/#the-visitor-center"
+          target="_blank"
+          >CONTACT</a
+        ></span
+      >
+
+      <hr />
+    </header>
+
+    <h1>
+      <div class="subheading">Explore</div>
+      P H I L A D E L P H I A
+    </h1>
+    <h3>| Culture | History | Community | Impact |</h3>
+
+    <center><button>LEARN MORE</button></center>
+
+    <footer>
+      <span class="signature">
+        Coded by Dominique M | Video by
+        <a
+          href="https://www.pexels.com/video/an-aerial-footage-of-the-center-city-4686761/"
+          target="_blank"
+          >Kelly</a
+        >
+        from Pexels
+      </span>
+      <span class="footer-links">
+        Follow Us
+        <a href="https://www.facebook.com/visitphilly/" target="_blank"
+          ><i class="fa-brands fa-facebook"></i></a
+        ><a
+          href="https://www.instagram.com/cityofphiladelphia/?hl=en"
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i></a
+        ><a href="https://www.tiktok.com/@visit.philly?lang=en" target="_blank"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+      </span>
+    </footer>
+    <script>
+      function signUp() {
+        let name = prompt("Please enter your first name");
+        let email = prompt(
+          "Hello there, " +
+            name +
+            ". Would you like to sign up for emails from Philadelphia Tourism with access to exclusive deals at local businesses?"
+        );
+        email = email.toLowerCase();
+        if (email === "yes") {
+          let email = prompt(
+            "You're on your way to being an insider. What is your email address?"
+          );
+          alert(
+            "Thank you " +
+              name +
+              "! You have been signed up! Please check your email for further details. Have fun exploring Philly :)"
+          );
+        } else {
+          alert(
+            "Just click the button on our page to sign up if you change your mind!"
+          );
+        }
+      }
+      let signUpButton = document.querySelector("button");
+      signUpButton.addEventListener("click", signUp);
+    </script>
+  </body>
+</html>
